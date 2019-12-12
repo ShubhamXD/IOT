@@ -20,4 +20,4 @@ with smtplib.SMTP('smtp.gmail.com',587) as smtp:
     body= 'THIS IS TEST MESSAGE...'
 
     msg= f'Subject: {subject} \n\n{body}'
-    smtp.sendmail(EMAIL_USERNAME,'samiksha.khule94@gmail.com',msg)
+    smtp.sendmail(EMAIL_USERNAME,'s******@gmail.com',msg)
