@@ -6,7 +6,7 @@ import email
 import pprint
 import time
 EMAIL_USERNAME=os.environ.get('EMAIL_USERNAME')
-EMAIL_PASSWORD=os.environ.get('EMAIL_PASSWORD') # vzknmebxljupjdwj
+EMAIL_PASSWORD=os.environ.get('EMAIL_PASSWORD') #
 
 def deleteEmailIMAP(mail,uuid):
     #mail.uid('STORE', uuid,'+FLAGS','(\\Deleted)')
