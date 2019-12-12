@@ -1,0 +1,2 @@
+for True:
+    print('Hello')
