@@ -10,7 +10,7 @@ from time import sleep
 import RPi.GPIO as GPIO
 
 EMAIL_USERNAME=os.environ.get('EMAIL_USERNAME')
-EMAIL_PASSWORD=os.environ.get('EMAIL_PASSWORD') # vzknmebxljupjdwj
+EMAIL_PASSWORD=os.environ.get('EMAIL_PASSWORD') # 
 
 motor=21
 GPIO.setmode(GPIO.BCM)
